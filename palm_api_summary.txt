@@ -1,0 +1,14 @@
+ Transformer is a new neural network architecture for sequence transduction tasks. It is based on attention mechanisms and does not use recurrence or convolutions. It achieves state-of-the-art results on machine translation and constituency parsing tasks.
+
+ Transformer is a new neural network architecture for sequence transduction tasks. It eschews recurrence and instead relies entirely on an attention mechanism to draw global dependencies between input and output.
+
+ Transformer model consists of encoder and decoder stacks. Encoder stack has 6 identical layers, each with 2 sub-layers: multi-head self-attention and position-wise fully connected feed-forward network. Decoder stack has 3 sub-layers: multi-head self-attention, multi-head attention over the output of the encoder stack and position-wise fully connected feed-forward network.
+
+ Attention is a mechanism that allows an AI model to focus on specific parts of a input sequence.
+It is used in the Transformer model to improve performance on a variety of natural language processing tasks.
+
+ Transformer model consists of an encoder and decoder, each containing a stack of identical layers.
+The encoder layers contain multi-head attention and feed-forward networks. The decoder layers
+contain multi-head attention, feed-forward networks and an additional attention layer that attends
+to the encoder output.
+
